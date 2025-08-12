@@ -59,7 +59,7 @@ export function CitySearch() {
             value={query}
             onValueChange={setQuery}
           />
-          <CommandList>
+          <CommandList className="min-h-[120px] sm:min-h-[150px] md:min-h-[100px] lg:min-h-[220px]">
             {query.length > 2 && !isLoading && (
               <CommandEmpty>No cities found.</CommandEmpty>
             )}
