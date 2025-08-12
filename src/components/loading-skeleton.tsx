@@ -12,11 +12,12 @@ function WeatherSkeleton() {
           }
           
         </div>
-        <Skeleton className="h-[300px] w-full rounded-lg" />
-        <Skeleton className="h-[300px] w-full rounded-lg" />
-        <div className="grid gap-6 md:grid-cols-2">
-          <Skeleton className="h-[300px] w-full rounded-lg" />
-          <Skeleton className="h-[300px] w-full rounded-lg" />
+        
+        <div className="grid gap-6 md:grid-cols-6">
+          <Skeleton className="h-[300px] col-span-2 w-full rounded-lg" />
+        <Skeleton className="h-[300px] col-span-4 w-full rounded-lg" />
+          <Skeleton className="h-[300px] col-span-4 w-full rounded-lg" />
+          <Skeleton className="h-[300px] col-span-2 w-full rounded-lg" />
         </div>
       </div>
     </div>
